@@ -70,15 +70,15 @@ Task Manager – Development Checklist
 
 [✅] Remove task by ID
 
-[]8. Filtering
+[✅]8. Filtering
 
-[] Implement All / Active / Completed filters
+[✅] Implement All / Active / Completed filters
 
-[] Highlight the active filter
+[✅] Highlight the active filter
 
-[] Filter tasks in the parent component
+[✅] Filter tasks in the parent component
 
-[] Display only filtered tasks
+[✅] Display only filtered tasks
 
 []9. Active Task Counter
 
