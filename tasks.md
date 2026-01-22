@@ -26,17 +26,17 @@ Task Manager – Development Checklist
 
 [✅] TaskCounter – active task count
 
-[]3. State Management
+[✅]3. State Management
 
-[] Use useState for tasks
+[✅] Use useState for tasks
 
-[] Use useState for filter state
+[✅] Use useState for filter state
 
-[] Use useEffect for LocalStorage sync
+[✅] Use useEffect for LocalStorage sync
 
-[] Pass data via props only
+[✅] Pass data via props only
 
-[] Handle updates via callback functions
+[✅] Handle updates via callback functions
 
 []4. Add Task
 
