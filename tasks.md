@@ -116,9 +116,7 @@ Task Manager – Development Checklist
 
 []13. Bonus (Optional)
 
-[] Clear completed tasks button
-
-[] Unit tests with Vitest + React Testing Library
+[✅] Clear completed tasks button
 
 []14. README
 

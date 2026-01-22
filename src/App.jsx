@@ -52,7 +52,12 @@ export default function App() {
     <div className="app">
       <h1>Task Manager</h1>
       <TaskInput onAdd={handleAdd} />
-      <FilterBar filter={filter} onChange={setFilter} />
+      <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+        <FilterBar filter={filter} onChange={setFilter} />
+        <button className="clear-completed" onClick={() => setTasks((prev) => prev.filter((t) => !t.completed))}>
+          Clear completed
+        </button>
+      </div>
       <TaskList tasks={filteredTasks} onToggle={handleToggle} onDelete={handleDelete} onEdit={handleEdit} />
       <TaskCounter count={tasks.filter((t) => !t.completed).length} />
     </div>

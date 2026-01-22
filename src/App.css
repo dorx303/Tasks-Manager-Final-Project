@@ -91,3 +91,11 @@ button:focus, input:focus {
   outline: 3px solid rgba(37,99,235,0.2);
   outline-offset: 2px;
 }
+
+.clear-completed {
+  padding: 8px 10px;
+  border: 1px solid #f1f5f9;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
