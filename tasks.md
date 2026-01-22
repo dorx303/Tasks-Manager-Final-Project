@@ -114,16 +114,16 @@ Task Manager – Development Checklist
 
 [✅] Clean and readable code
 
-[]13. Bonus (Optional)
+[✅]13. Bonus (Optional)
 
 [✅] Clear completed tasks button
 
-[]14. README
+[✅]14. README
 
-[] App description
+[✅] App description
 
-[] Installation and run instructions
+[✅] Installation and run instructions
 
-[] Component list and responsibilities
+[✅] Component list and responsibilities
 
-[] Known limitations or bugs
+[✅] Known limitations or bugs
