@@ -2,3 +2,92 @@
   font-family: system-ui, Arial, sans-serif;
   padding: 24px;
 }
+
+.task-input {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-input button {
+  padding: 8px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-bar {
+  margin: 8px 0 12px 0;
+  display: flex;
+  gap: 8px;
+}
+
+.filter-bar button {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-bar button.active {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 6px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.task-item input[type="text"], .task-item input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.task-item button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-counter {
+  margin-top: 12px;
+  color: #333;
+}
+
+.empty {
+  color: #666;
+  font-style: italic;
+}
+
+/* Focus styles for keyboard users */
+button:focus, input:focus {
+  outline: 3px solid rgba(37,99,235,0.2);
+  outline-offset: 2px;
+}

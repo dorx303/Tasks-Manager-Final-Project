@@ -80,27 +80,27 @@ Task Manager – Development Checklist
 
 [✅] Display only filtered tasks
 
-[]9. Active Task Counter
+[✅]9. Active Task Counter
 
-[] Count tasks with completed === false
+[✅] Count tasks with completed === false
 
-[] Update counter on every change
+[✅] Update counter on every change
 
-[]10. LocalStorage Persistence
+[✅]10. LocalStorage Persistence
 
-[] Load tasks from LocalStorage on app mount
+[✅] Load tasks from LocalStorage on app mount
 
-[] Save tasks to LocalStorage on change
+[✅] Save tasks to LocalStorage on change
 
-[]Handle missing or invalid stored data safely
+[✅]Handle missing or invalid stored data safely
 
-[]11. UI & Usability
+[✅]11. UI & Usability
 
-[] Display message when no tasks exist
+[✅] Display message when no tasks exist
 
-[] Basic, clear styling
+[✅] Basic, clear styling
 
-[] Keyboard-friendly interactions
+[✅] Keyboard-friendly interactions
 
 []12. Code Quality
 
