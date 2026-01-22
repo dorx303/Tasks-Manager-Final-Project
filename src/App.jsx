@@ -8,14 +8,8 @@ import { createTask, normalizeTasksArray } from "./models/taskModel.js";
 import { loadTasksFromStorage, saveTasksToStorage } from "./utils/localStorage.js";
 
 export default function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState(() => normalizeTasksArray(loadTasksFromStorage()));
   const [filter, setFilter] = useState("All");
-
-  // Load tasks once on mount
-  useEffect(() => {
-    const stored = loadTasksFromStorage();
-    setTasks(normalizeTasksArray(stored));
-  }, []);
 
   // Save tasks whenever they change
   useEffect(() => {

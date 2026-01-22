@@ -102,17 +102,17 @@ Task Manager – Development Checklist
 
 [✅] Keyboard-friendly interactions
 
-[]12. Code Quality
+[✅]12. Code Quality
 
-[] No console errors or warnings
+[✅] No console errors or warnings
 
-[] Functional components only
+[✅] Functional components only
 
-[] No routing libraries
+[✅] No routing libraries
 
-[] No external state management libraries
+[✅] No external state management libraries
 
-[] Clean and readable code
+[✅] Clean and readable code
 
 []13. Bonus (Optional)
 

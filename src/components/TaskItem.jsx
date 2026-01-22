@@ -5,11 +5,6 @@ export default function TaskItem({ task, onToggle, onDelete, onEdit }) {
   const [text, setText] = useState(task.text);
   const inputRef = useRef(null);
 
-  // Keep local text in sync if task prop changes externally
-  useEffect(() => {
-    setText(task.text);
-  }, [task.text]);
-
   // Focus input when entering edit mode
   useEffect(() => {
     if (editing && inputRef.current) inputRef.current.focus();
