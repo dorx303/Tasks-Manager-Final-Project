@@ -38,31 +38,31 @@ Task Manager – Development Checklist
 
 [✅] Handle updates via callback functions
 
-[]4. Add Task
+[✅]4. Add Task
 
-[]Input field for task text
+[✅]Input field for task text
 
-[] Prevent empty or whitespace-only tasks
+[✅] Prevent empty or whitespace-only tasks
 
-[] Generate a unique task ID
+[✅] Generate a unique task ID
 
-[] Clear input after submission
+[✅] Clear input after submission
 
-[]5. Toggle Task Completion
+[✅]5. Toggle Task Completion
 
-[] Add checkbox or toggle control
+[✅] Add checkbox or toggle control
 
-[] Update task completion state immutably
+[✅] Update task completion state immutably
 
 6. Edit Task
 
-[] Allow switching between view and edit mode
+[✅] Allow switching between view and edit mode
 
-[] Save edited text
+[✅] Save edited text
 
-[] Prevent saving empty text
+[✅] Prevent saving empty text
 
-[] Preserve task ID
+[✅] Preserve task ID
 
 []7. Delete Task
 
