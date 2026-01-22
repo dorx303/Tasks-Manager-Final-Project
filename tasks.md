@@ -12,19 +12,19 @@ Task Manager – Development Checklist
 
 [✅] Define a constant LocalStorage key for tasks
 
-[]2. Component Structure (Minimum 4)
+[✅]2. Component Structure (Minimum 4)
 
-[] App – holds main state and logic
+[✅] App – holds main state and logic
 
-[] TaskInput – adds new tasks
+[✅] TaskInput – adds new tasks
 
-[] TaskList – displays filtered tasks
+[✅] TaskList – displays filtered tasks
 
-[] TaskItem – single task UI and actions
+[✅] TaskItem – single task UI and actions
 
-[] FilterBar – filter selection UI
+[✅] FilterBar – filter selection UI
 
-[] TaskCounter – active task count
+[✅] TaskCounter – active task count
 
 []3. State Management
 
