@@ -64,11 +64,11 @@ Task Manager – Development Checklist
 
 [✅] Preserve task ID
 
-[]7. Delete Task
+[✅]7. Delete Task
 
-[] Add delete button to each task
+[✅] Add delete button to each task
 
-[] Remove task by ID
+[✅] Remove task by ID
 
 []8. Filtering
 
