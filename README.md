@@ -3,12 +3,12 @@
 Small single-page task manager built with React (functional components + hooks) and Vite.
 
 Features implemented
-- Create, edit, delete tasks
-- Toggle completion
-- Filter (All / Active / Completed)
-- Persist tasks to LocalStorage
-- Active task counter
-- Clear completed tasks
+- TaskInput – handles new task input and submit
+- TaskList – renders filtered tasks list
+- TaskItem – displays single task + edit/toggle/delete
+- FilterBar – controls current filter + highlights active
+- TaskCounter – shows remaining active tasks
+- App: holds state, handlers, filtering, persistences
 
 Tech
 - React 19, Vite
